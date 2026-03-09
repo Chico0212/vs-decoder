@@ -58,7 +58,10 @@
     "watch-tests": "bun x tsc -p . -w --outDir out",
     "pretest": "bun run compile-tests && bun run compile && bun run lint",
     "lint": "bun x eslint src",
-    "test": "vscode-test"
+    "test": "vscode-test",
+    "package:patch": "npm version patch && bunx vsce package",
+    "package:minor": "npm version minor && bunx vsce package",
+    "package:major": "npm version major && bunx vsce package"
   },
   "devDependencies": {
     "@types/vscode": "^1.109.0",
