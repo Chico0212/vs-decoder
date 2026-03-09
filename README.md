@@ -54,7 +54,3 @@ O resultado sera exibido em um novo painel ao lado do editor atual.
 ## Contribuicao
 
 Contribuicoes sao bem-vindas. Abra uma issue ou pull request descrevendo o que voce gostaria de alterar ou adicionar. Seja respeitoso nas interacoes.
-
-## Licenca
-
-MIT
