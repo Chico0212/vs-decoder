@@ -16,6 +16,10 @@
       {
         "command": "vscode-decoder.base64",
         "title": "Decode base64"
+      },
+      {
+        "command": "vscode-decoder.gzipb64",
+        "title": "Decode gzipBase64"
       }
     ],
     "submenus": [
@@ -34,6 +38,9 @@
       "decoder": [
         {
           "command": "vscode-decoder.base64"
+        },
+        {
+          "command": "vscode-decoder.gzipb64"
         }
       ]
     }
