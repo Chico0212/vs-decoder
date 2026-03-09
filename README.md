@@ -31,9 +31,7 @@ npm install
 2. Empacote a extensao:
 
 ```bash
-bun run package:patch   # 1.0.0 -> 1.0.1 (correcoes)
-bun run package:minor   # 1.0.0 -> 1.1.0 (novas funcionalidades)
-bun run package:major   # 1.0.0 -> 2.0.0 (mudancas incompativeis)
+vsce package
 ```
 
 3. Instale o arquivo gerado:
